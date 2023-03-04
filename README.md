@@ -17,3 +17,9 @@ SKIP_DOCKER=true ./scripts/init_db.sh
 ```sh
 cargo sqlx prepare -- --lib
 ```
+
+## Too many open files
+
+```sh
+ulimit -n 10000
+```
