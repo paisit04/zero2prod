@@ -23,3 +23,9 @@ cargo sqlx prepare -- --lib
 ```sh
 ulimit -n 10000
 ```
+
+### Redis
+
+```sh
+./scripts/init_redis.sh
+```
